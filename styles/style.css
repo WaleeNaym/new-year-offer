@@ -7,6 +7,12 @@
     font-variation-settings:
       "wdth" 100;
 }
+.inter-normal {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+  }
 
 
 /* Common Styles */
@@ -23,7 +29,7 @@
         rgba(16, 16, 16, 0) 101.632%
     ),
     url(../images/Banner\ Image.png);
-    /* background-repeat: no-repeat; */
+    background-repeat: no-repeat;
     background-size: cover;
     max-width: 1320px;
     height: 600px;
@@ -46,3 +52,49 @@
     text-align: center;
 }
 
+
+/* Section-3 */
+.section-3 {
+    background-image: linear-gradient(
+        90deg, 
+        rgb(9, 9, 9) 3.482%,
+        rgba(16, 16, 16, 0) 101.632%
+    ),
+    url(../images/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1320px;
+    height: 600px;
+    border: none;
+    border-radius: 16px;
+    margin: 50px 140px 0px;
+
+    display: flex;
+    justify-content: space-around;
+}
+.section-3-div {
+    max-width: 632px;
+    padding-top: 100px;
+    padding-left: 60px;
+}
+.sec-3-description {
+    font-size: 18px;
+    text-align: left;
+}
+.sec-3-title {
+    font-size: 64px;
+    font-weight: 900;
+    text-align: left;
+}
+.sec-3-join {
+    font-size: 20px;
+    font-weight: bold;
+}
+.sec-3-image {
+    padding-top: 80px;
+    padding-right: 70px;
+}
+.not-btn {
+    display: inline-block;   /*Just so, mouse cursor not icon dont change when hover, the whole line*/
+    text-decoration: none;
+}
