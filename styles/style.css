@@ -65,19 +65,29 @@
 
 /* Section-2 */
 .section-2 {
-    border: 1px solid red;
+    max-width: 1320px;
+    margin: 0px 140px;
+}
+.section-2-div {
+    text-align: center;
 }
 .sec-2-title1 {
     font-size: 88px;
     font-weight: bold;
+    margin-bottom: 48px;
 }
 .sec-2-title2 {
     font-size: 24px;
     font-weight: 500;
+    /* margin-bottom: 16px; */
 }
 .sec-2-title3 {
     font-size: 48px;
     font-weight: bold;
+    margin-bottom: 48px;
+}
+.sec-2-image {
+    justify-self: center;
 }
 
 
@@ -125,4 +135,35 @@
 .not-btn {
     display: inline-block;   /*Just so, mouse cursor not icon dont change when hover, the whole line*/
     text-decoration: none;
+}
+
+
+/* Section-4 */
+.section-4 {
+    background-image: linear-gradient(
+        180deg, 
+        rgb(255, 225, 225) 1%,
+        rgba(255, 0, 0, 0) 90%
+    );
+    max-width: 1320px;
+    border-radius: 16px;
+    margin: 120px 140px 0px;
+    padding: 100px 385px;
+}
+.sec-4-div {
+    text-align: center;
+}
+.sec-4-text{
+    font-size: 32px;
+    font-weight: 600;
+}
+.sec-4-btn {
+    border: none;
+    border-radius: 8px;
+    background-color: #FF0000;
+    padding: 16px 32px;
+
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
 }
