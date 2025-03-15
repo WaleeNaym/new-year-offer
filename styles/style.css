@@ -146,9 +146,10 @@
         rgba(255, 0, 0, 0) 90%
     );
     max-width: 1320px;
+    border: 1px solid red;
     border-radius: 16px;
     margin: 120px 140px 0px;
-    padding: 100px 385px;
+    padding: 100px 0px 110px 0px;
 }
 .sec-4-div {
     text-align: center;
@@ -163,7 +164,9 @@
     background-color: #FF0000;
     padding: 16px 32px;
 
-    font-size: 20px;
+    margin-top: 20px;
+
+    font-size: 25px;
     font-weight: bold;
     color: white;
 }
