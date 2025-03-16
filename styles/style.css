@@ -146,7 +146,6 @@
         rgba(255, 0, 0, 0) 90%
     );
     max-width: 1320px;
-    border: 1px solid red;
     border-radius: 16px;
     margin: 120px 140px 0px;
     padding: 100px 0px 110px 0px;
@@ -169,4 +168,37 @@
     font-size: 25px;
     font-weight: bold;
     color: white;
+}
+
+
+/* Section 5 */
+.section-5 {
+    border: 1px solid red;
+    max-width: 1320px;
+    margin: 120px 140px 0px;
+
+    display: flex;
+}
+.sec-5-img1 {
+    border: 15px solid red;
+    border-radius: 50%;
+    padding: 25px;
+}
+.sec-5-title1{
+    font-size: 24px;
+    font-weight: 500;
+}
+.sec-5-title2 {
+    font-size: 48px;
+    font-weight: 900;
+}
+.sec-5-title3 {
+    font-size: 48px;
+    font-weight: bold;
+}
+.sec-5-description {
+    font-size: 20px;
+}
+.sec-5-img2 {
+
 }
