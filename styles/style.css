@@ -172,12 +172,25 @@
 
 
 /* Section 5 */
+
+/*  DO NOT use this, this does not reset margin within section */
+.section-5 h4, .section-5 p {
+    margin: 0;                      
+}
+
 .section-5 {
-    border: 1px solid red;
     max-width: 1320px;
     margin: 120px 140px 0px;
 
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sec-5-div-1 {
+    max-width: 393px;
+}
+.sec-5-div-3 {
+    max-width: 276px;
 }
 .sec-5-img1 {
     border: 15px solid red;
@@ -187,18 +200,29 @@
 .sec-5-title1{
     font-size: 24px;
     font-weight: 500;
+    padding-bottom: 16px;
 }
 .sec-5-title2 {
     font-size: 48px;
     font-weight: 900;
+    padding-bottom: 22px;
 }
 .sec-5-title3 {
     font-size: 48px;
     font-weight: bold;
+    padding-bottom: 16px;
+    padding-top: 110px;
 }
 .sec-5-description {
     font-size: 20px;
 }
 .sec-5-img2 {
+    padding-top: 43px;
+}
 
+
+/* Section 6 */
+.section-6 {
+    max-width: 1320px;
+    border: 1px solid red;
 }
