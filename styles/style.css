@@ -221,8 +221,42 @@
 }
 
 
+
 /* Section 6 */
+
+/*  DO NOT use this, this does not reset margin within section */
+.section-6 h4,.section-6 h2, .section-6 p {
+    margin: 0;                      
+}
+
 .section-6 {
     max-width: 1320px;
-    border: 1px solid red;
+    margin: 120px 140px 0px;
+}
+.sec-6-div-1 {
+    text-align: center;
+    max-width: 1068px;
+    margin: 0px 126px 64px;
+}
+.sec-6-title1 {
+    font-size: 24px;
+    font-weight: 500;
+}
+.sec-6-title2 {
+    font-size: 72px;
+    font-weight: 900;
+    padding-top: 16px;
+    padding-bottom: 28px;
+}
+.sec-6-description {
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(7, 2, 17, 0.6);
+}
+.sec-6-div-2 {
+    max-width: 1320px;
+    height: 662px;
+    background-image: url(../images/Group\ 75.png), url(../images/Rectangle\ 2.png), url(../images/Group\ 44.png);
+    background-repeat: no-repeat;
+    background-position: left, bottom, top right;
 }
